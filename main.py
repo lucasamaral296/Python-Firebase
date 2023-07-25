@@ -48,6 +48,10 @@ for id_venda in dic_requisicao:
         
 # Deletar uma venda (DELETE)
 
+requisicao = requests.delete(f'{linkdb}/Vendas/{id_estefany}/.json')
+print(requisicao)
+print(requisicao.text)
+
 # O que seria de legal após isso?
 
 # Autenticação
